@@ -1,0 +1,61 @@
+body {
+  overflow: hidden;
+}
+.underline {
+  /* text-decoration: underline; */
+  border-bottom: 1px solid black;
+}
+.home {
+  background-color: bisque;
+  padding: 20px;
+  /* height: 100vh; */
+  display: flex;
+}
+
+.view_resume {
+  /* flex-grow: 30; */
+  width: 45%;
+  display: flex;
+  background-color: #fff;
+  padding: 40px;
+}
+.view_resume .card-header h4 {
+  font-size: 0.889rem;
+  align-items: center;
+}
+.view_resume .left_side {
+  width: 50%;
+  height: 100%;
+  border-right: 1px solid rgba(87, 84, 84, 0.452);
+  margin-right: 10px;
+}
+.view_resume .personal_info {
+  color: rgb(148, 144, 144) !important;
+}
+.view_resume .left_side div {
+  margin-bottom: 10px;
+}
+
+.view_resume .right_side {
+  width: 50%;
+  height: 100%;
+}
+.view_resume .right_side .education_info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.year {
+  font-size: 0.756rem;
+}
+.tabs {
+  width: 55%;
+  height: 95vh;
+  padding: 10px;
+}
+
+.tabs .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
